@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(234, 241, 246);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+h1{
+    color: rgb(56, 56, 244);;
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+    font-size: 50px
+}
+p{
+    font-size: 25px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.intro{
+    display: grid;
+    position: relative;
+    top: 50px;
+    justify-content: left;
+}
+
+
+.formulaire{
+    display: grid;
+    position: relative;
+    top: 90px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    align-items: center;
+    box-shadow: 1px 3px 20px 3px rgb(194, 191, 191) ;
+}
+
+#login{
+    border: 1px solid transparent;
+    background-color: rgb(56, 56, 244);;
+    width: 400px;
+    color: white;
+    font-weight: 600;
+}
+
+
+.formulaire p {
+    color: rgb(56, 56, 244);
+    font-size: small;
+    text-align: center;
+    font-weight: 600;
+}
+.create{
+    display: inline-block;
+    background-color: rgb(59, 199, 59);
+    font-weight: 600;
+    margin: 20px;
+    margin-left: 120px;
+    padding: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    
+}
+.create:active{
+    background-color: rgb(75, 211, 41);
+}
+.create a {
+    color: white;
+}
+input{
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+}
+
+
+
+  
+@media (max-width:600px){
+    body{width: 100%;}
+
+    main{
+        position: relative ;
+        bottom: 100px;
+        display: block;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .intro{
+        text-align: center;
+        position: relative;
+        align-items: center;
+        left: 40px;
+    }
+   
+    .intro p{
+        font-size: 20px;
+        text-align: center;
+    }
+    Input,#login{
+        width: 300px;
+    }
+    .create{
+        display: inline-block;
+        background-color: rgb(59, 199, 59);
+        font-weight: 600;
+        margin: 20px;
+        margin-left: 10px;
+        padding: 15px;
+        margin-bottom: 30px;
+        text-align: center;
+        border-radius: 10px;
+        color: white;
+    }
+}
